@@ -1,0 +1,18 @@
+SSH Configuration:
+- PermitRootLogin: yes
+- PasswordAuthentication: yes
+- PubkeyAuthentication: #PubkeyAuthentication yes (commented)
+
+Firewall (iptables):
+- Chain INPUT: policy ACCEPT
+- Chain FORWARD: policy ACCEPT
+- Chain OUTPUT: policy ACCEPT
+- No active rules.
+
+System Updates:
+- Upgradable packages: 93
+
+User Accounts:
+- root: /bin/bash
+- ubuntu: /bin/bash
+- user: /bin/bash
